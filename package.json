@@ -5,7 +5,9 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -r dotenv/config app.js"
+    "start": "node -r dotenv/config app.js",
+    "index": "node -r dotenv/config db/index.js",
+    "create-table": "node -r dotenv/config db/scripts/createTable.js"
   },
   "repository": {
     "type": "git",
