@@ -1,0 +1,26 @@
+{
+  "name": "hackathon-energiser-score-tracker-luke_jon",
+  "version": "1.0.0",
+  "description": "We will be building our first full stack app. It will be a chance to embed everything we've learnt so far and practice breaking down problems into solvable chunks.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/hackathon-energiser-score-tracker-luke_jon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/hackathon-energiser-score-tracker-luke_jon/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/hackathon-energiser-score-tracker-luke_jon#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "pg": "^8.4.1"
+  }
+}
