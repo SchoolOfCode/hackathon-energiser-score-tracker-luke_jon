@@ -28,6 +28,5 @@ async function getMind() {
   return result.rows;
 }
 
-getMind();
 
 module.exports = { getTotal, getMind };
