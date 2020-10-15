@@ -9,7 +9,9 @@
     "index": "node -r dotenv/config db/index.js",
     "create-table": "node -r dotenv/config db/scripts/createTable.js",
     "populate-table": "node -r dotenv/config db/scripts/populateTable.js",
-    "read-table": "node -r dotenv/config db/scripts/readTable.js"
+    "read-table": "node -r dotenv/config db/scripts/readTable.js",
+    "get-total": "node -r dotenv/config db/models/leaderboard.js",
+    "update-scores": "node -r dotenv/config db/scripts/updateScores.js"
   },
   "repository": {
     "type": "git",
