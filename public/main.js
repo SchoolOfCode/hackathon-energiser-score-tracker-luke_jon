@@ -2,9 +2,8 @@
 // use query selector to select the section in js
 const tableSection = document.querySelector("#table");
 const totalTable = document.querySelector("#total");
-const refrshTable = document.querySelector("#updateTable");
+const refreshTable = document.querySelector("#updateTable");
 const submitButton = document.querySelector("button[type='submit']");
-
 
 
 
